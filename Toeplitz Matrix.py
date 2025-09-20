@@ -1,9 +1,5 @@
 class Solution(object):
     def isToeplitzMatrix(self, matrix):
-        """
-        :type matrix: List[List[int]]
-        :rtype: bool
-        """
         m, n = len(matrix), len(matrix[0])
         
         for i in range(1, m):
